@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: rgba(31, 30, 29, 0.89);
+    margin: 0;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 12px;
+    margin-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.header h2 {
+    font-family: 'Pacifico';
+    font-weight: lighter;
+}
+
+
+.header img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.user{
+    display: inline;
+    padding-left: 0%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.user-pfp img{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+.username {
+    
+    margin-left: 12px;
+    display: flex;
+    margin-bottom: 1px;
+    flex-direction: column;
+  }
+
+  .username a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0px; 
+  }
+
+  .username p {
+    margin: 0; 
+    font-size: medium; 
+  }
+
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.react {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.react .icons {
+    display: flex;
+}
+
+.react .icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.react img:last-child {
+    margin-left: auto;
+}
+
+.content {
+    margin-top: 10px;
+    word-spacing: normal;
+    /* background-color: aqua; */
+}
+
+.content a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+p1 {
+    font-weight: bolder;
+}
+
